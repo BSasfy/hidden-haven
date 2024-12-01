@@ -1,11 +1,15 @@
 export default function HomePage() {
   return (
     <main>
-      <div className="mb-8 h-[80vh] w-full content-center justify-items-center bg-[url('/homepage-hands.jpg')] bg-cover bg-center bg-no-repeat">
-        <div className="w-1/2 pb-[20%] text-center font-medium italic text-white md:text-4xl">
+      <div className="relative h-[80vh] w-full content-center justify-items-center bg-[url('/homepage-hands.jpg')] bg-cover bg-center bg-no-repeat">
+        <div className="mb-[10%] w-4/5 text-center text-4xl font-medium italic text-white md:w-1/2 lg:text-5xl">
           For mental, physical and spiritual wellbeing
         </div>
-        <button className="bg-[#C9AC7C] p-4">Book Now</button>
+        <div className="w-full justify-items-center">
+          <button className="absolute bottom-7 left-[36vw] rounded-sm bg-[#C9AC7C] px-4 py-2 text-3xl md:left-[43%]">
+            Book Now
+          </button>
+        </div>
       </div>
     </main>
   );
