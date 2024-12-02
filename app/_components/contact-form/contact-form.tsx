@@ -37,7 +37,7 @@ export function ContactForm() {
       <input
         type="submit"
         value="Send"
-        className="h-12 w-28 self-end border-[0.25px] border-[#FFFBF2] bg-[#181818] text-xl"
+        className="h-12 w-28 self-end bg-[#C9AC7C] text-xl md:border-[0.25px] md:border-[#FFFBF2] md:bg-[#181818]"
       />
     </form>
   );
