@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { MobileNavBar } from "./MobileNavBar";
 
 export function NavBar() {
@@ -42,13 +43,13 @@ export function NavBar() {
                 Contact
               </a>
             </li>
-            <a href="/" className="flex space-x-3">
+            <Link href="/" className="flex space-x-3">
               <img
                 src="/logo-with-text.png"
                 className="w-[330px]"
                 alt="Hidden Haven Logo"
               />
-            </a>
+            </Link>
             <li className="content-center">
               <button
                 className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
