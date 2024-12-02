@@ -16,7 +16,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <body className="bg-[#181818]">
+      <body className="bg-[#181818] text-[#FFFBF2]">
         <div className="">
           <NavBar />
           {children}
