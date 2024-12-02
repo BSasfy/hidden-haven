@@ -51,53 +51,12 @@ export function NavBar() {
               />
             </Link>
             <li className="content-center">
-              <button
+              <a
+                href="/services"
                 className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
-                onClick={() => {
-                  setIsDropdownOpen(!isDropdownOpen);
-                }}
               >
                 Services
-              </button>
-              <div
-                data-isdropdownopen={isDropdownOpen}
-                className="absolute right-6 mt-6 rounded-lg border-2 border-t-0 border-gray-500 bg-[#181818] transition-all data-[isdropdownopen=false]:hidden"
-              >
-                <ul>
-                  <li>
-                    <a
-                      href="/services/massage"
-                      className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
-                    >
-                      Massage
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/services/talking-therapies"
-                      className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
-                    >
-                      Talking Therapies
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/services/beauty"
-                      className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
-                    >
-                      Beauty
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/services/laser-clinic-medical"
-                      className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
-                    >
-                      Laser Clinic & Medical
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              </a>
             </li>
             <li className="content-center">
               <a
