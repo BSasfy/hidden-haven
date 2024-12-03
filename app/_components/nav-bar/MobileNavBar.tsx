@@ -6,14 +6,6 @@ export function MobileNavBar() {
       <div className="w-full justify-items-center md:block md:w-full md:max-w-7xl">
         <ul className="flex w-full flex-col justify-between font-medium md:mt-0 md:flex-row md:space-x-8">
           <li className="content-center">
-            <Link
-              href="/"
-              className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
-            >
-              Home
-            </Link>
-          </li>
-          <li className="content-center">
             <a
               href="/about"
               className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"

@@ -10,7 +10,7 @@ export function NavBar() {
   return (
     <nav className="bg-[#181818]">
       <div className="mx-auto flex max-w-screen-xl flex-wrap p-3">
-        <div>
+        <div className="w-full">
           {/* Hamburger menu button */}
           {/* <button
             className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-300 focus:outline-none focus:ring-2 md:hidden"
@@ -52,6 +52,13 @@ export function NavBar() {
           >
             <MobileNavBar />
           </div>
+          <Link href="/" className="flex space-x-3 justify-self-end">
+            <img
+              src="/logo-with-text.png"
+              className="relative right-0 w-[330px]"
+              alt="Hidden Haven Logo"
+            />
+          </Link>
         </div>
 
         <div className="hidden w-full justify-items-center md:block md:w-full md:max-w-7xl">
