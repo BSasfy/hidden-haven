@@ -20,45 +20,48 @@ export function NavBar() {
           >
             <span className="sr-only">Open main menu</span>
           </button> */}
-          <button
-            onClick={() => {
-              setIsMobileMenuOpen(!isMobileMenuOpen);
-            }}
-            className="flex flex-col items-center justify-center p-4 md:hidden"
-          >
-            <span
-              className={`block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${
-                isMobileMenuOpen
-                  ? "translate-y-1 rotate-45"
-                  : "-translate-y-0.5"
-              }`}
-            ></span>
-            <span
-              className={`my-0.5 block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${
-                isMobileMenuOpen ? "opacity-0" : "opacity-100"
-              }`}
-            ></span>
-            <span
-              className={`block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${
-                isMobileMenuOpen
-                  ? "-translate-y-1 -rotate-45"
-                  : "translate-y-0.5"
-              }`}
-            ></span>
-          </button>
-          <div
-            data-mobilenavbar={isMobileMenuOpen}
-            className="absolute z-10 h-full w-full p-0 data-[mobilenavbar=false]:hidden"
-          >
-            <MobileNavBar />
+
+          <div className="flex justify-between">
+            <Link href="/" className="flex space-x-3 justify-self-end">
+              <img
+                src="/logo-with-text.png"
+                className="relative right-0 w-[330px] md:hidden"
+                alt="Hidden Haven Logo"
+              />
+            </Link>
+            <div
+              data-mobilenavbar={isMobileMenuOpen}
+              className="h-87vh absolute bottom-0 z-10 w-full p-0 data-[mobilenavbar=false]:hidden"
+            >
+              <MobileNavBar />
+            </div>
+            <button
+              onClick={() => {
+                setIsMobileMenuOpen(!isMobileMenuOpen);
+              }}
+              className="flex flex-col items-center justify-center p-4 md:hidden"
+            >
+              <span
+                className={`block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${
+                  isMobileMenuOpen
+                    ? "translate-y-1 rotate-45"
+                    : "-translate-y-0.5"
+                }`}
+              ></span>
+              <span
+                className={`my-0.5 block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${
+                  isMobileMenuOpen ? "opacity-0" : "opacity-100"
+                }`}
+              ></span>
+              <span
+                className={`block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${
+                  isMobileMenuOpen
+                    ? "-translate-y-1 -rotate-45"
+                    : "translate-y-0.5"
+                }`}
+              ></span>
+            </button>
           </div>
-          <Link href="/" className="flex space-x-3 justify-self-end">
-            <img
-              src="/logo-with-text.png"
-              className="relative right-0 w-[330px]"
-              alt="Hidden Haven Logo"
-            />
-          </Link>
         </div>
 
         <div className="hidden w-full justify-items-center md:block md:w-full md:max-w-7xl">
