@@ -10,7 +10,7 @@ export function NavBar() {
   return (
     <nav className="bg-[#181818]">
       <div className="mx-auto flex max-w-screen-xl flex-wrap p-3">
-        <div className="w-full">
+        <div className="w-full md:hidden">
           {/* Hamburger menu button */}
           {/* <button
             className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-300 focus:outline-none focus:ring-2 md:hidden"
