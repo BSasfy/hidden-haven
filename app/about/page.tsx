@@ -2,9 +2,11 @@ export default function AboutPage() {
   return (
     <main>
       <div className="bg-black">
-        <div className="flex flex-col gap-11 px-24 py-20 text-[#FFFBF2]">
-          <div className="text-4xl font-light">About Us</div>
-          <div className="text-3xl font-extralight">
+        <div className="flex flex-col gap-5 px-10 py-20 text-[#FFFBF2] xl:px-24">
+          <div className="justify-self-center pb-5 text-4xl xl:font-light">
+            About Us
+          </div>
+          <div className="text-justify text-2xl xl:text-3xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
