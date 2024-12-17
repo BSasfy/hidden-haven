@@ -25,7 +25,7 @@ export function NavBar() {
             <Link href="/" className="flex space-x-3 justify-self-end">
               <img
                 src="/logo-with-text.png"
-                className="relative right-0 w-[330px] md:hidden"
+                className="relative right-0 w-[250px] sm:w-[330px] md:hidden"
                 alt="Hidden Haven Logo"
               />
             </Link>

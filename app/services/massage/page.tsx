@@ -6,9 +6,11 @@ export default function ServicesPage() {
           Massage
         </div>
       </div>
-      <div className="px-20 py-12 font-extralight">
-        <div className="pb-9 text-4xl">Massage</div>
-        <div className="pb-7 text-3xl">
+      <div className="px-10 py-12 font-extralight xl:px-20">
+        <div className="justify-self-center pb-9 text-3xl font-bold xl:text-4xl">
+          Massage
+        </div>
+        <div className="pb-7 text-justify text-xl xl:text-3xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
