@@ -13,17 +13,42 @@ export default function ContactPage() {
               </div>
             </div>
             <div className="flex flex-col pl-10 text-2xl font-thin max-md:pt-10 md:pl-16">
-              <Link href="tel:+4407392975905">07392975905</Link>
-              <Link href="tel:+4407900617195">07900617195</Link>
-              <Link href="mailto:enquiries@thehiddenhaven.co.uk">
-                enquiries@thehiddenhaven.co.uk
-              </Link>
+              <div className="flex">
+                <div className="pr-2 pt-1">
+                  <span className="material-symbols-outlined">call</span>
+                </div>
+                <Link href="tel:+4407392975905">07392975905</Link>
+              </div>
+
+              <div className="flex">
+                <div className="pr-2 pt-1">
+                  <span className="material-symbols-outlined">call</span>
+                </div>
+                <Link href="tel:+4407900617195">07900617195</Link>
+              </div>
+
+              <div className="flex">
+                <div className="pr-2 pt-1">
+                  <span className="material-symbols-outlined">mail</span>
+                </div>
+                <Link href="mailto:enquiries@thehiddenhaven.co.uk">
+                  enquiries@thehiddenhaven.co.uk
+                </Link>
+              </div>
             </div>
           </div>
           <div className="py-7 pl-4 max-md:hidden">
             <div className="text-3xl font-thin md:pb-4">Find Us</div>
-            <div className="text-2xl font-thin">
-              36 Portland Road, Kilmarnock, KA1 2DJ
+            <div className="flex">
+              <div className="pt-1">
+                <span className="material-symbols-outlined pr-2">
+                  location_on
+                </span>
+              </div>
+
+              <div className="text-2xl font-thin">
+                36 Portland Road, Kilmarnock, KA1 2DJ
+              </div>
             </div>
           </div>
         </div>

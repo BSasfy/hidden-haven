@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer className="border-t-[1px] border-gray-300 bg-[#181818]">
-      <div className="mx-auto flex w-full max-w-screen-xl flex-col justify-between gap-4 px-4 py-2 text-[#FFFBF2] max-md:items-center md:flex-row">
+      <div className="mx-auto flex w-full max-w-screen-xl flex-col justify-between gap-4 px-4 py-2 text-[#FFFBF2] max-md:hidden max-md:items-center md:flex-row">
         <span className="text-md w-1/3 justify-items-center font-medium md:justify-items-start">
           <div>07392975905</div>
           <div>07900617195</div>
@@ -12,6 +12,15 @@ export function Footer() {
         <div className="w-1/3 justify-items-center max-md:text-center md:justify-items-end">
           <div>36 Portland Road, Kilmarnock, KA1 2DJ</div>
         </div>
+      </div>
+      <div className="flex justify-between justify-items-center md:hidden">
+        <div className="pl-10">Facebook</div>
+
+        <div>Instagram</div>
+
+        <div>Address</div>
+
+        <div className="pr-10">Phone</div>
       </div>
     </footer>
   );
