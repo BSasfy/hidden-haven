@@ -50,7 +50,7 @@ export function Footer() {
           <div className="pr-2 pt-1">
             <span className="material-symbols-outlined">location_on</span>
           </div>
-          <Link href="https://maps.app.goo.gl/LnJH3Bd5nYenHHsm7">Address</Link>
+          <Link href="https://maps.app.goo.gl/LnJH3Bd5nYenHHsm7">Find Us</Link>
         </div>
         <div className="flex items-center gap-4">
           <div className="relative mr-1 mt-[3px] h-4 w-4">
@@ -66,7 +66,7 @@ export function Footer() {
           <div className="pr-2 pt-1">
             <span className="material-symbols-outlined">call</span>
           </div>
-          <Link href="tel:+4407392975905">Phone</Link>
+          <Link href="tel:+4407392975905">Phone Us</Link>
         </div>
       </div>
     </footer>
