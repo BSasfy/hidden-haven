@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer className="border-t-[1px] border-gray-300 bg-[#181818]">
@@ -14,13 +17,33 @@ export function Footer() {
         </div>
       </div>
       <div className="flex justify-between justify-items-center md:hidden">
-        <div className="pl-10">Facebook</div>
+        <div className="flex pl-8">
+          <div className="relative mr-1 mt-[3px] h-4 w-4">
+            <Image src="/facebook_logo.png" alt="Facebook Logo" fill />
+          </div>
+          <div>Facebook</div>
+        </div>
 
-        <div>Instagram</div>
-
-        <div>Address</div>
-
-        <div className="pr-10">Phone</div>
+        <div className="flex">
+          <div className="relative mr-1 mt-[3px] h-4 w-4">
+            <Image src="/instagram_logo.png" alt="Facebook Logo" fill />
+          </div>
+          <div>Instagram</div>
+        </div>
+        <div className="flex">
+          <div>
+            <span className="material-symbols-outlined">location_on</span>
+          </div>
+          <div>Address</div>
+        </div>
+        <div className="flex">
+          <div>
+            <span className="material-symbols-outlined">call</span>
+          </div>
+          <Link href="tel:+4407392975905" className="pr-8">
+            Phone
+          </Link>
+        </div>
       </div>
     </footer>
   );

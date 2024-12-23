@@ -60,8 +60,15 @@ export default function ContactPage() {
           </div>
           <div className="pb-10 pl-10 md:hidden">
             <div className="pb-4 text-3xl font-thin">Find Us</div>
-            <div className="text-2xl font-thin">
-              36 Portland Road, Kilmarnock, KA1 2DJ
+            <div className="flex">
+              <div className="pt-1">
+                <span className="material-symbols-outlined pr-2">
+                  location_on
+                </span>
+              </div>
+              <div className="text-2xl font-thin">
+                36 Portland Road, Kilmarnock, KA1 2DJ
+              </div>
             </div>
           </div>
           <iframe
