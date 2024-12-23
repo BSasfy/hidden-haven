@@ -47,7 +47,9 @@ export default function ContactPage() {
               </div>
 
               <div className="text-2xl font-thin">
-                36 Portland Road, Kilmarnock, KA1 2DJ
+                <Link href="https://maps.app.goo.gl/LnJH3Bd5nYenHHsm7">
+                  36 Portland Road, Kilmarnock, KA1 2DJ
+                </Link>
               </div>
             </div>
           </div>
@@ -67,7 +69,9 @@ export default function ContactPage() {
                 </span>
               </div>
               <div className="text-2xl font-thin">
-                36 Portland Road, Kilmarnock, KA1 2DJ
+                <Link href="https://maps.app.goo.gl/LnJH3Bd5nYenHHsm7">
+                  36 Portland Road, Kilmarnock, KA1 2DJ
+                </Link>
               </div>
             </div>
           </div>
