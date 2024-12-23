@@ -7,13 +7,19 @@ export default function AboutPage() {
             About Us
           </div>
           <div className="text-justify text-2xl xl:text-3xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Our approach, whether its mental, physical or spiritual wellness you
+            are seeking, we spend time with our clients on their journey, Our
+            team in Kilmarnock have a combined experience of over 50 years
+            caring for and nurturing our clients when they come to us. As an
+            already established team of therapists at “ Time to Relax” in
+            Kilmarnock, we started Hidden Haven as a way continue to add to what
+            we offer our clients, whether its laser treatments, massage and
+            reflexology, facials and other holistic therapies to hypnotherapy
+            and counselling , we can offer you quality time for you.{" "}
+          </div>
+          <div className="text-justify text-2xl xl:text-3xl">
+            We continue to grow our range of workshops and wellness days and
+            treatments in line with client need and demand.
           </div>
           <div className="mt-[10vh] w-2/3 self-center border-2 border-white"></div>
         </div>

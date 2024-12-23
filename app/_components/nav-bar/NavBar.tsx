@@ -71,7 +71,7 @@ export function NavBar() {
                 href="/about"
                 className="block px-3 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
               >
-                About Us
+                About
               </a>
             </li>
             <li className="content-center">
