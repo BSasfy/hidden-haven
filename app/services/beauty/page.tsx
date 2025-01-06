@@ -1,3 +1,5 @@
+import { ServicesButton } from "@/app/_components/services-button/ServicesButton";
+
 export default function BeautyPage() {
   return (
     <div className="text-[#FFFBF2]">
@@ -17,9 +19,7 @@ export default function BeautyPage() {
           aliquip ex ea commodo consequat. Duis aute irure dolor{" "}
         </div>
         <div className="justify-self-center">
-          <button className="rounded-sm bg-[#C9AC7C] px-4 py-2 text-3xl">
-            Book Now
-          </button>
+          <ServicesButton />
         </div>
       </div>
     </div>

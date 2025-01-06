@@ -63,20 +63,20 @@ export function NavBar() {
         <div className="hidden w-full justify-items-center md:block md:w-full md:max-w-7xl">
           <ul className="flex w-full flex-col justify-between border p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0">
             <li className="content-center">
-              <a
+              <Link
                 href="/about"
                 className="block px-3 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li className="content-center">
-              <a
+              <Link
                 href="/contact-us"
                 className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
               >
                 Contact
-              </a>
+              </Link>
             </li>
             <Link href="/" className="flex space-x-3">
               <img
@@ -86,20 +86,20 @@ export function NavBar() {
               />
             </Link>
             <li className="content-center">
-              <a
+              <Link
                 href="/services"
                 className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
               >
                 Services
-              </a>
+              </Link>
             </li>
             <li className="content-center">
-              <a
-                href="#"
+              <Link
+                href="https://the-haven-shop.square.site/s/appointments"
                 className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
               >
                 Book
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

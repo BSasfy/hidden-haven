@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomePage() {
   return (
     <main>
@@ -6,9 +8,12 @@ export default function HomePage() {
           For mental, physical and spiritual wellbeing
         </div>
 
-        <button className="mx-auto mb-9 block rounded-sm bg-[#C9AC7C] px-4 py-2 text-3xl">
+        <Link
+          className="mx-auto mb-9 block rounded-sm bg-[#C9AC7C] px-4 py-2 text-3xl"
+          href="https://the-haven-shop.square.site/s/appointments"
+        >
           Book Now
-        </button>
+        </Link>
       </div>
     </main>
   );

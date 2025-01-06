@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutPage() {
   return (
     <main>
@@ -27,9 +29,12 @@ export default function AboutPage() {
         </div>
       </div>
       <div className="relative h-[200px] w-full content-center justify-items-center bg-[url('/woman-behind-leaves.png')] bg-cover bg-center bg-no-repeat text-center">
-        <button className="left-[36vw] rounded-sm bg-[#C9AC7C] px-8 py-4 text-3xl">
+        <Link
+          className="left-[36vw] rounded-sm bg-[#C9AC7C] px-8 py-4 text-3xl"
+          href="https://the-haven-shop.square.site/s/appointments"
+        >
           Book Now
-        </button>
+        </Link>
       </div>
     </main>
   );
