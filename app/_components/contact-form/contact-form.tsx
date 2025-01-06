@@ -10,29 +10,29 @@ export function ContactForm() {
         type="text"
         id="name"
         name="name"
-        placeholder="  Name"
-        className="h-8 bg-[#FFFBF2]"
+        placeholder="Name"
+        className="h-8 bg-[#FFFBF2] pl-2 text-gray-800"
       />
       <input
         type="text"
         id="number"
         name="number"
-        placeholder="  Contact Number"
-        className="h-8 bg-[#FFFBF2]"
+        placeholder="Contact Number"
+        className="h-8 bg-[#FFFBF2] pl-2 text-gray-800"
       />
       <input
         type="text"
         id="email"
         name="email"
-        placeholder="  Email"
-        className="h-8 bg-[#FFFBF2]"
+        placeholder="Email"
+        className="h-8 bg-[#FFFBF2] pl-2 text-gray-800"
       />
       <input
         type="text"
         id="message"
         name="message"
-        placeholder="  Message..."
-        className="h-40 bg-[#FFFBF2]"
+        placeholder="Message..."
+        className="h-40 bg-[#FFFBF2] pl-2 text-gray-800"
       />
       <input
         type="submit"

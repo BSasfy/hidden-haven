@@ -27,7 +27,7 @@ export default function ContactPage() {
                 <Link href="tel:+4407900617195">07900617195</Link>
               </div>
 
-              <div className="flex">
+              <div className="flex text-[4vw] md:text-xl lg:text-2xl">
                 <div className="pr-2 pt-1">
                   <span className="material-symbols-outlined">mail</span>
                 </div>
@@ -56,7 +56,7 @@ export default function ContactPage() {
         </div>
         <div className="md:grid md:grid-cols-2">
           <div className="content-center justify-items-center bg-cover bg-center bg-no-repeat md:bg-[url('/woman-face-dark-leaves.png')]">
-            <div className="w-full px-10 py-7 md:px-24">
+            <div className="w-full px-10 py-7 lg:px-24">
               <ContactForm />
             </div>
           </div>

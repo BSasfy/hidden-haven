@@ -27,7 +27,7 @@ export function Footer() {
               </Link>
             </div>
             <div className="relative mt-[3px] h-6 w-6">
-              <Link href="https://www.facebook.com/profile.php?id=61557749330755&locale=cy_GB">
+              <Link href="https://www.facebook.com/profile.php?id=61557749330755&locale=cy_GB/">
                 <Image src="/facebook_logo.png" alt="Facebook Logo" fill />
               </Link>
             </div>
@@ -36,7 +36,9 @@ export function Footer() {
         <div className="w-1/3 justify-items-center max-md:text-center md:justify-items-end">
           <div className="flex">
             <span className="material-symbols-outlined mr-1">location_on</span>
-            <div>36 Portland Road, Kilmarnock, KA1 2DJ</div>
+            <Link href="https://maps.app.goo.gl/LnJH3Bd5nYenHHsm7">
+              36 Portland Road, Kilmarnock, KA1 2DJ
+            </Link>
           </div>
         </div>
       </div>
@@ -54,11 +56,15 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-4">
           <div className="relative mr-1 mt-[3px] h-4 w-4">
-            <Image src="/facebook_logo.png" alt="Facebook Logo" fill />
+            <Link href="https://www.facebook.com/profile.php?id=61557749330755&locale=cy_GB/">
+              <Image src="/facebook_logo.png" alt="Facebook Logo" fill />
+            </Link>
           </div>
 
           <div className="relative mr-1 mt-[3px] h-4 w-4">
-            <Image src="/instagram_logo.png" alt="Instagram Logo" fill />
+            <Link href="https://www.instagram.com/hidden_haven_ayrshire_/">
+              <Image src="/instagram_logo.png" alt="Instagram Logo" fill />
+            </Link>
           </div>
         </div>
 
