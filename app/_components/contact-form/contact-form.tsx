@@ -26,10 +26,10 @@ export function ContactForm() {
       )
       .then(
         (result) => {
-          alert(result.text);
+          alert(result);
         },
         (error) => {
-          alert(error.text);
+          alert(error);
         },
       );
   };
