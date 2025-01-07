@@ -1,11 +1,41 @@
 "use client";
 
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 export function ContactForm() {
-  function onsubmit() {
-    alert("Email sent!");
-  }
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (
+      !process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ||
+      !process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ||
+      !process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ||
+      !form.current
+    )
+      throw new Error(
+        "One of the sendForm params (serviceID, templateID, form, publicKey) is missing. Please check your environment variables",
+      );
+    emailjs
+      .sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+      )
+      .then(
+        (result) => {
+          alert(result.text);
+        },
+        (error) => {
+          alert(error.text);
+        },
+      );
+  };
+
   return (
-    <form onSubmit={onsubmit} className="flex flex-col gap-3">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-3">
       <input
         type="text"
         id="name"
