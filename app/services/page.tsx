@@ -11,6 +11,7 @@ export default function ServicesPage() {
             fill
             alt="woman receiving facial treatment"
             className="object-cover"
+            priority={true}
           />
           <Link href="/services/beauty" className="relative">
             <div className="p-4 text-4xl font-bold drop-shadow-2xl">Beauty</div>
@@ -24,6 +25,7 @@ export default function ServicesPage() {
             fill
             alt="woman receiving a massage"
             className="object-cover"
+            priority={true}
           />
           <Link href="/services/massage" className="relative">
             <div className="p-4 text-4xl font-bold drop-shadow-2xl">
@@ -39,6 +41,7 @@ export default function ServicesPage() {
             fill
             alt="woman and therapist in session"
             className="object-cover"
+            priority={true}
           />
           <Link href="/services/talking-therapies" className="relative">
             <div className="p-4 text-4xl font-bold drop-shadow-2xl">
@@ -54,6 +57,7 @@ export default function ServicesPage() {
             fill
             alt="woman receiving laser treatment on face"
             className="object-cover"
+            priority={true}
           />
           <Link href="/services/laser-clinic-medical" className="relative">
             <div className="p-4 text-4xl font-bold drop-shadow-2xl">
