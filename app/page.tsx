@@ -1,9 +1,16 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
     <main>
-      <div className="flex h-[80vh] w-full flex-col content-center justify-end bg-[url('/homepage-hands.jpg')] bg-cover bg-center bg-no-repeat lg:bg-contain">
+      <div className="relative flex h-[80vh] w-full flex-col content-center justify-end">
+        <Image
+          src="/homepage-hands.jpg"
+          fill
+          alt="hands holding flower"
+          className="object-cover lg:object-contain"
+        />
         <div className="mx-auto mb-[250px] block w-4/5 justify-self-center text-center text-3xl font-medium italic text-white md:w-1/2 md:text-4xl lg:text-5xl">
           For mental, physical and spiritual wellbeing
         </div>
