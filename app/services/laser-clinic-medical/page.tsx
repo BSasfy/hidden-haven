@@ -9,16 +9,20 @@ export default function LaserClinicPage() {
         </div>
       </div>
       <div className="px-10 py-12 font-extralight xl:px-20">
-        <div className="justify-self-center pb-9 text-[26px] font-bold xl:text-4xl">
-          Laser Clinic & Medical
+        <div className="pb-7 text-justify text-xl xl:text-2xl">
+          <div className="pb-5 text-3xl font-bold text-[#C9AC7C] xl:text-4xl">
+            Services
+          </div>
+          <ul className="ml-16 list-disc">
+            <li>Laser treatment for fungal nail infection</li>
+            <li>Laser Hair removal</li>
+            <li>Age spot removal</li>
+            <li>Red vein removal</li>
+            <li>Ear wax removal by suction</li>
+            <li>Verrucae and Wart treatment by cryotherapy</li>
+          </ul>
         </div>
-        <div className="pb-7 text-justify text-2xl xl:text-3xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor{" "}
-        </div>
-        <div className="justify-self-center">
+        <div className="justify-self-center pt-5">
           <ServicesButton />
         </div>
       </div>

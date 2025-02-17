@@ -87,30 +87,32 @@ export default function ContactPage() {
             </div>
             <div className="text-3xl italic max-md:hidden">
               <table className="w-max">
-                <tr>
-                  <td className="font-bold">Monday </td>
-                  <td>Closed</td>
-                </tr>
-                <tr>
-                  <td className="font-bold">Tuesday</td>
-                  <td>10:00 - 13:00</td>
-                </tr>
-                <tr>
-                  <td className="pr-8 font-bold">Wednesday</td>
-                  <td>09:00 - 19:00</td>
-                </tr>
-                <tr>
-                  <td className="font-bold">Thursday</td>
-                  <td>09:00 - 19:00</td>
-                </tr>
-                <tr>
-                  <td className="font-bold">Friday</td>
-                  <td>09:00 - 18:00</td>
-                </tr>
-                <tr>
-                  <td className="font-bold">Saturday</td>
-                  <td>09:00 - 15:00</td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <td className="font-bold">Monday </td>
+                    <td>Closed</td>
+                  </tr>
+                  <tr>
+                    <td className="font-bold">Tuesday</td>
+                    <td>10:00 - 13:00</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-8 font-bold">Wednesday</td>
+                    <td>09:00 - 19:00</td>
+                  </tr>
+                  <tr>
+                    <td className="font-bold">Thursday</td>
+                    <td>09:00 - 19:00</td>
+                  </tr>
+                  <tr>
+                    <td className="font-bold">Friday</td>
+                    <td>09:00 - 18:00</td>
+                  </tr>
+                  <tr>
+                    <td className="font-bold">Saturday</td>
+                    <td>09:00 - 15:00</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
             <div className="text-center text-2xl font-thin italic md:hidden">

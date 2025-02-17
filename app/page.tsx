@@ -1,9 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
+import Alert from "@mui/material/Alert";
 
 export default function HomePage() {
   return (
     <main>
+      <Alert severity="info">
+        You can now book some of our services via the{" "}
+        <Link
+          href="https://the-haven-shop.square.site/s/appointments"
+          className="font-bold underline"
+        >
+          BOOK NOW
+        </Link>{" "}
+        button. If you can't see what you're looking for, please call us on
+        07392975905! We're working on making all the services available for
+        booking online.
+      </Alert>
       <div className="relative flex h-[80vh] w-full flex-col content-center justify-end">
         <Image
           src="/homepage-hands.jpg"

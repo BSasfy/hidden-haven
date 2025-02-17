@@ -16,6 +16,7 @@ export function NavBar() {
   return (
     <nav className="bg-[#181818]">
       <div className="mx-auto flex max-w-screen-xl flex-wrap p-3">
+        {/* mobile navbar */}
         <div className="w-full md:hidden">
           <div className="flex justify-between">
             <Link href="/" className="flex space-x-3 justify-self-end">
@@ -59,7 +60,7 @@ export function NavBar() {
             </button>
           </div>
         </div>
-
+        {/* desktop navbar */}
         <div className="hidden w-full justify-items-center md:block md:w-full md:max-w-7xl">
           <ul className="flex w-full flex-col justify-between border p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0">
             <li className="content-center">
@@ -94,9 +95,17 @@ export function NavBar() {
               </Link>
             </li>
             <li className="content-center">
+              {/* <Link
+                href="/services-list"
+                className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
+              >
+                Book
+              </Link> */}
+            </li>
+            <li className="content-center">
               <Link
                 href="https://the-haven-shop.square.site/s/appointments"
-                className="block px-3 py-2 text-xl font-thin text-[#FFFBF2] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
+                className="block px-3 py-2 text-xl font-thin text-[#C9AC7C] hover:text-[#FFFBF2] md:border-0 md:hover:bg-transparent md:hover:text-blue-500 lg:text-3xl"
               >
                 Book
               </Link>
