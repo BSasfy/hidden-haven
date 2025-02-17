@@ -18,9 +18,9 @@ export function ServicesButton() {
         >
           BOOK NOW
         </Link>
-        &nbsp;button. If you can't see what you're looking for, please call us
-        on 07392975905! We're working on making all the services available for
-        booking online.
+        &nbsp;button. If you can&apos;t see what you&apos;re looking for, please
+        call us on 07392975905! We&apos;re working on making all the services
+        available for booking online.
       </Alert>
     </div>
   );
