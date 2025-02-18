@@ -16,8 +16,8 @@ export default function AboutPage() {
             caring for and nurturing our clients when they come to us.
             <br /> <br />
             As an already established team of therapists at “Time to Relax” in
-            Kilmarnock, we started Hidden Haven as a way continue to add to what
-            we offer our clients, whether its laser treatments, massage and
+            Kilmarnock, we started Hidden Haven as a way to continue to add to
+            what we offer our clients, whether its laser treatments, massage and
             reflexology, facials and other holistic therapies to hypnotherapy
             and counselling, we can offer you quality time for you.
           </div>

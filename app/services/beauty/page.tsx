@@ -4,9 +4,7 @@ export default function BeautyPage() {
   return (
     <div className="text-[#FFFBF2]">
       <div className="h-40 content-center bg-[url('/beauty.png')] bg-cover bg-center bg-no-repeat object-cover text-center md:h-72">
-        <div className="p-4 text-7xl font-light italic drop-shadow-2xl">
-          Beauty
-        </div>
+        <h1 className="p-4 text-7xl italic drop-shadow-2xl">Beauty</h1>
       </div>
       <div className="px-10 py-12 font-extralight xl:px-20">
         <div className="pb-7 text-justify text-xl xl:text-2xl">
