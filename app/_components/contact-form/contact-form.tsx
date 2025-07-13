@@ -39,6 +39,7 @@ export function ContactForm() {
         },
         (error) => {
           notifyError();
+          console.log(error);
         },
       );
 
